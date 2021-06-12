@@ -27,7 +27,7 @@ echo ""
 
 # Usage
 usage() {
-echo -e "${YELLOW}usage: ./gitlab_user_enum.sh --url <URL> --userlist <Username Wordlist>${NC}\n"
+echo -e "${YELLOW}usage: ./gitlab_user_recon.sh --url <URL> --userlist <Username Wordlist>${NC}\n"
 
 echo -e "${Italic}PARAMETERS:${NC}"
 echo -e "-------------"
@@ -37,7 +37,7 @@ echo -e "-h/--help	Show this help message and exit"
 echo -e "\n"
 echo -e "${Italic}Example:${NC}"
 echo -e "-------------"
-echo -e "./gitlab_user_enum.sh --url http://gitlab.local/ --userlist /home/user/usernames.txt"
+echo -e "./gitlab_user_recon.sh --url http://gitlab.local/ --userlist /home/user/usernames.txt"
 }
 
 #check for params

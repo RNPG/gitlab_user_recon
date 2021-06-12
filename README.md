@@ -27,13 +27,30 @@ chmod +x gitlab_user_recon.sh
 ./gitlab_user_recon.sh --url <URL> --userlist <Username Wordlist>
 ```
 #### Usage Example:
+
+`./gitlab_user_recon.sh --url http://192.168.10.10:8181 --userlist /root/Desktop/usernames.txt`
+
 ```
-./gitlab_user_recon.sh --url http://192.168.10.10:8181 --userlist /root/Desktop/usernames.txt
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                     GitLab User Enumeration Script
+                                             Version 1.0
+
+Description: It prints out the usernames that exist in your victim's GitLab CE instance
+
+Disclaimer: Do not run this script against GitLab.com! Also keep in mind that this PoC is meant only
+for educational purpose and ethical use. Running it against systems that you do not own or have the
+right permission is totally on your own risk.
+
+Author: @4DoniiS [https://github.com/4D0niiS]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+[+] The username root exists!
+[+] The username mysql exists!
+[+] The username robert exists!
+[+] The username adonis exists!
+                                    
 ```
-
-![alt text](https://raw.githubusercontent.com/RNPG/gitlab_user_recon/main/Output_Sample.PNG?token=ASYBGLXXTWY6E4BNT7AS333AYRGQ2 "GitLab User Recon")
-
-
 
 
 

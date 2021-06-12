@@ -7,7 +7,7 @@ This is a tool that can help ethical hackers or penetration testers to find auto
 *Do not run this script against  <a href="https://gitlab.com">Gitlab.com</a> ! Also keep in mind that this PoC is meant only for educational purpose and ethical use. Running it against systems that you do not own or have the right permission is totally on your own risk.*
 
 ## Technical Analysis
-GitLab's directory `http://<gitlab>/<username>` can help an intruder to find its valid usernames. Basically this scrpit will test various usernames in the mentioned URL to find valid usernames of GitLab. 
+GitLab's path `http://<gitlab>/<username>` can help an intruder to find its valid usernames. Basically this scrpit will test various usernames in the mentioned URL to find valid usernames of GitLab. 
 
 ## How To Install
 ```
